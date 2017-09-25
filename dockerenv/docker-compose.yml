@@ -1,0 +1,5 @@
+version: '3.1'
+services:
+  hello:
+   image: dockernenv:0-0
+   env_file: ./docker.env 
